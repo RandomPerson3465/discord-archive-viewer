@@ -1,0 +1,13 @@
+{
+    "1": {
+        "username": "Clyde",
+        "color": "#fff",
+        "type": "bot",
+        "avatar": "./avatar/clyde.png"
+    },
+    "549471563616092171": {
+        "username": "RandomPerson3465",
+        "color": "#95a5a6",
+        "avatar": "./avatar/random.png"
+    }
+}

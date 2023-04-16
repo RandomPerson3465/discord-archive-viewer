@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "attachments": "A list of attachment names separated by commas",
+            "author": "The User ID of the user who sent the message",
+            "channelId": "The channel with the #. This must be the same as the folder name",
+            "embeds": 0,
+            "content": "Embeds is the number of embeds on the message. Content is where the message content goes",
+            "id": "Message ID"
+        },
+        {
+            "attachments": "image0.png",
+            "author": "549471563616092171",
+            "channelId": "#general",
+            "embeds": 0,
+            "content": "Message json files must be named messages-XX.json where XX is two digits.",
+            "id": "1000"
+        },
+        {
+            "attachments": "",
+            "author": "549471563616092171",
+            "channelId": "#general",
+            "embeds": 1,
+            "content": "Messages are ordered from newest to oldest",
+            "id": "999"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Discord Archive Viewer 1.0</h1>
+    <div class="channel-list">
+    </div>
+    <div class="messages">
+      
+    </div>
+    <div class="search-box">
+      <div>
+      <h3>Search Messages</h3>
+      <span>After: <input id="search-after" type="datetime-local" min="2019-08-18T00:00" max="2020-08-07T23:59"></span><br>
+      <span>Before: <input id="search-before" type="datetime-local" min="2019-08-18T00:00" max="2020-08-07T23:59"></span><br>
+      <span>Has keywords: <input id="search-keywords" type="text"></span><br>
+      <span>Does not have keywords: <input id="search-no-keywords" type="text"></span><br>
+      <span>Has substrings: <input id="search-substrings" type="text"></span><br>
+      <span>Does not have substrings: <input id="search-no-substrings" type="text"></span><br>
+      <span>From: <select id="search-from" class="user-select" multiple>
+        <option value="">--</option>
+        <option value="bots">All bots</option>
+        <option value="webhooks">All webhooks</option>
+        <option value="alts">All alt accounts</option>
+      </select></span><br>
+      <span>Not from: <select id="search-not-from" class="user-select" multiple>
+        <option value="">--</option>
+        <option value="bots">All bots</option>
+        <option value="webhooks">All webhooks</option>
+        <option value="alts">All alt accounts</option>
+      </select></span><br>
+      <span>In: <input id="search-in" type="text"></span>
+      <span>Not in: <input id="search-not-in" type="text"></span><br>
+      <span>Attachment required? <input id="search-attachment" type="checkbox"> Embed required? <input id="search-embed" type="checkbox"></span> Content required? <input id="search-content" type="checkbox"></span><br>
+      <span>Sort: <select id="search-sort">
+        <option value="new">Newest</option>
+        <option value="old">Oldest</option>
+        <option value="az">A to Z</option>
+        <option value="za">Z to A</option>
+        <option value="short">Shortest</option>
+        <option value="long">Longest</option>
+      </select> Page: <input id="page-counter" value="1" min="1" type="number"></span><br>
+      <button type="submit" onclick="searchMessages()">Search messages</button><br>
+      <strong><p id="result-counter">-- results</p></strong>
+      </div>
+      <div class="search-results">
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+  <!--
+  <script src="./userData.js"></script>
+  <script src="./messagedata.js"></script>
+  -->
+  <script src="https://rawgit.com/leizongmin/js-xss/master/dist/xss.js"></script>
+  <script>
+
+    
+  </script>
+  <script src="./render.js"></script>
+  
+</html>

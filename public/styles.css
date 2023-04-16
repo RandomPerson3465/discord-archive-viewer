@@ -1,0 +1,142 @@
+body {
+    background-color: #36393f;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.message-content img {
+    height: 24px;
+    width: 24px;
+    margin: 0px;
+}
+
+.mention {
+    background-color: #558;
+    color: #88f;
+}
+
+.messages {
+    width: 50%;
+    overflow-wrap: break-word;
+    float: left;
+    margin-left: 5px;
+    height: 90%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.messages::-webkit-scrollbar {
+    display: none;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.message-sub-container {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.message-sub-container-indented {
+    margin-left: 58px;
+    width: 100%;
+}
+
+h3 {
+    margin: 0px;
+    font-weight: 600;
+}
+
+.badge {
+    font-size: 0.75em;
+    color: #fff;
+    font-weight: 400;
+    background-color: #88f;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.timestamp {
+    font-size: 0.75em;
+    color: #999;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.message-content {
+    font-size: 1.0em;
+}
+
+.message-info-box {
+    background-color: #555;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+p {
+    margin: 0.2em;
+}
+
+pre {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.channel-list {
+    float: left;
+    background-color: #2b2d31;
+    width: 10%;
+    height: 90%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.channel-list::-webkit-scrollbar {
+    display: none;
+}
+
+.channel-button {
+    display: block;
+    border: none;
+    outline: none;
+    text-align: left;
+    width: 100%;
+    color: #fff;
+    background-color: #2b2d31;
+    padding: 5px;
+    font-size: 1.0em;
+}
+
+.channel-button:hover {
+    background-color: #36373d;
+}
+
+.channel-button.active {
+    background-color: #404249;
+}
+
+.search-box {
+    float: left;
+    margin-left: 5px;
+    width: 37.5%;
+    border: 1px solid white;
+    height: 90%;
+    padding: 5px;
+    display: flex;
+    flex-flow: column;
+}
+
+.search-results {
+    overflow-y: scroll;
+    flex: 1 1 auto;
+}
+
+input[type=number] {
+    width: 5em;
+}

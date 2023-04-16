@@ -1,0 +1,11 @@
+{
+    "Channel-ID": {
+        "name": "name of the channel, without the #"
+    },
+    "list": ["This is the list of channels that are in the archive, without the #", 
+        "Place a ! for a category break", 
+        "Like this:", 
+        "!", 
+        "a horizontal bar will be rendered on the viewer"
+    ]
+}
